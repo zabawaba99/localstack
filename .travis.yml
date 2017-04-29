@@ -6,6 +6,7 @@ python:
 before_install:
   - "sudo apt-get purge openjdk*"
   - "sudo apt-get purge oracle-java7-*"
+  - "nvm install 6; nvm alias default node"
 
 addons:
   apt:
